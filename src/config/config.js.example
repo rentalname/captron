@@ -1,0 +1,11 @@
+/* :eyes: https://apps.twitter.com/ */
+const config = {
+  Twitter: {
+    consumerKey: 'CONSUMER_KEY',
+    consumerSecret: 'CONSUMER_SECRET'
+    accessToken: '***',
+    accessTokenSecret: '***'
+  }
+}
+
+export default config
