@@ -23,7 +23,9 @@ module.exports = {
   entry: {
     'main/index': './src/main/index.js',
     'renderer/app': './src/renderer/app.jsx',
-    'renderer/captureWindow': './src/renderer/captureWindow.js'
+    'renderer/captureWindow': './src/renderer/captureWindow.js',
+    'renderer/pincodeWindow': './src/renderer/PincodeWindow.jsx',
+    'renderer/previewWindow': './src/renderer/previewWindow.jsx'
   },
   output: {
     filename: 'dist/[name].js'

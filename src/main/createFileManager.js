@@ -22,6 +22,18 @@ class FileManager {
       })
     })
   }
+
+  readAsBase64String(filename) {
+    return new Promise((resolve, reject) => {
+      fs.readFile(filename, { encoding: 'base64'}, (error, data) => {
+        if (error) {
+          reject(error)
+        } else {
+          resolve(data)
+        }
+      })
+    })
+  }
 }
 
 function createFileManager() {
