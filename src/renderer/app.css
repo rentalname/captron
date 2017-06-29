@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  opacity: 0.169;
+}
+
 html, body, body > div {
   height: 100%;
 }
